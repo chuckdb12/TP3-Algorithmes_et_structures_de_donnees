@@ -1,0 +1,5 @@
+add_test([=[DicoSynonymes.simil]=]  C:/Users/charl/CLionProjects/TP3/cmake-build-debug/tests/testsDico.exe [==[--gtest_filter=DicoSynonymes.simil]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DicoSynonymes.simil]=]  PROPERTIES WORKING_DIRECTORY C:/Users/charl/CLionProjects/TP3/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DicoSynonymesTest.ajouterRadical]=]  C:/Users/charl/CLionProjects/TP3/cmake-build-debug/tests/testsDico.exe [==[--gtest_filter=DicoSynonymesTest.ajouterRadical]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DicoSynonymesTest.ajouterRadical]=]  PROPERTIES WORKING_DIRECTORY C:/Users/charl/CLionProjects/TP3/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  testsDico_TESTS DicoSynonymes.simil DicoSynonymesTest.ajouterRadical)
